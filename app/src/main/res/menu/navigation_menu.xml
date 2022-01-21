@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/Feed"
+        android:title="My Feed"
+        android:icon="@drawable/feedplaceholder">
+    </item>
+
+    <item
+        android:id="@+id/Profile"
+        android:title="My Profile"
+        android:icon="@drawable/profileplaceholder">
+    </item>
+
+    <item
+        android:id="@+id/Chat"
+        android:title="Messages"
+        android:icon="@drawable/chatplaceholder">
+    </item>
+
+    <item
+        android:id="@+id/Events"
+        android:title="My events"
+        android:icon="@drawable/eventsplaceholder">
+    </item>
+
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        android:icon="@drawable/settingsplaceholder">
+    </item>
+
+
+
+
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DoggyChat</string>
+    <string name="Open">DoggyChat</string>
+    <string name="Close">DoggyChat</string>
+</resources>

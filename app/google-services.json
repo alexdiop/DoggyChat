@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015364882291",
+    "firebase_url": "https://test-c56fb.firebaseio.com",
+    "project_id": "test-c56fb",
+    "storage_bucket": "test-c56fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015364882291:android:2967299f46b71e530c7f06",
+        "android_client_info": {
+          "package_name": "com.example.doggychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015364882291-gbukr0ebfpvova9o8971sa3c35knroqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDViq1_geETlTINqO31XMVceIA10KNAeBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015364882291-gbukr0ebfpvova9o8971sa3c35knroqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

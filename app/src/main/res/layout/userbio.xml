@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/userBioIntro"
+        android:layout_width="188dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:text="Tell us about you and your pet!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userBioField"
+        android:layout_width="302dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="32dp"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="8"
+        android:minLines="0"
+        android:scrollbars="vertical|horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userBioIntro">
+
+        <requestFocus />
+
+    </EditText>
+</androidx.constraintlayout.widget.ConstraintLayout>
